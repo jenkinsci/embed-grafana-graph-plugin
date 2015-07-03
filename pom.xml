@@ -32,13 +32,12 @@
    </developer>
   </developers>
 
-  <!-- Assuming you want to host on @jenkinsci:
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-    <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
-  </scm>
-   -->
+      <connection>scm:git:git://github.com/jenkinsci/embed-grafana-graph-plugin.git</connection>
+      <developerConnection>scm:git:git@github.com:jenkinsci/embed-grafana-graph-plugin.git</developerConnection>
+      <url>https://github.com/jenkinsci/embed-grafana-graph-plugin.git</url>
+    </scm>
+ 
   <repositories>
     <repository>
       <id>repo.jenkins-ci.org</id>
